@@ -123,167 +123,9 @@ export default function Detail({ params }: { params: { id: string } }) {
     </div>
 
   
-  <section className="container my-5">
-    <h3 className="text-center mb-4">See what Ambassadors says about the product</h3>
-    <div className="row text-center">
-      <div className="col-md-6 col-lg-4 mb-4">
-        <div className="card p-4 shadow-sm">
-          <img src="/image/pr-bg-10.png" className="rounded-circle mx-auto d-block mb-3" alt="Ambassador"/>
-          <h5 className="card-title">Name Surname</h5>
-          <span className="badge bg-secondary">AMBASSADOR</span>
-          <p className="card-text mt-3">Pede dis ipsum placeat do exercitation laborum...</p>
-          <button className="btn btn-dark">SHOP WITH ME</button>
-          <p className="mt-4">What I love about this product</p>
-          <div className="d-flex justify-content-around mt-2">
-            <button className="btn btn-outline-dark">Lorem Ipsum</button>
-            <button className="btn btn-outline-dark">Lorem Ipsum Se</button>
-          </div>
-        </div>
-      </div>
-      
-      <div className="col-md-6 col-lg-4 mb-4">
-        <div className="card p-4 shadow-sm">
-          <img src="/image/pr-bg-11.png" className="rounded-circle mx-auto d-block mb-3" alt="Ambassador" />
-          <h5 className="card-title">Name Surname</h5>
-          <span className="badge bg-secondary">AMBASSADOR</span>
-          <p className="card-text mt-3">Pede dis ipsum placeat do exercitation laborum...</p>
-          <button className="btn btn-dark">SHOP WITH ME</button>
-          <p className="mt-4">What I love about this product</p>
-          <div className="d-flex justify-content-around mt-2">
-            <button className="btn btn-outline-dark">Lorem Ipsum</button>
-            <button className="btn btn-outline-dark">Lorem Ipsum Se</button>
-          </div>
-        </div>
-      </div>
-      
-      <div className="col-md-6 col-lg-4 mb-4">
-        <div className="card p-4 shadow-sm">
-          <img src="/image/pr-bg-12.png" className="rounded-circle mx-auto d-block mb-3" alt="Ambassador" />
-          <h5 className="card-title">Name Surname</h5>
-          <span className="badge bg-secondary">AMBASSADOR</span>
-          <p className="card-text mt-3">Pede dis ipsum placeat do exercitation laborum...</p>
-          <button className="btn btn-dark">SHOP WITH ME</button>
-          <p className="mt-4">What I love about this product</p>
-          <div className="d-flex justify-content-around mt-2">
-            <button className="btn btn-outline-dark">Lorem Ipsum</button>
-            <button className="btn btn-outline-dark">Lorem Ipsum Se</button>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+  
 
-  <section className="container my-5">
-    <h3 className="mb-4">Product Details</h3>
-    <p>Ad illum natoque volutpat leo tor...</p>
-
-    <div className="row">
-      <div className="col-md-6 mb-4">
-        <h4>Key Ingredients</h4>
-        <ul>
-          <li>Ingredient - Lorem ipsum dolor sit amet</li>
-          <li>Ingredient - Etiam vehicula est libero</li>
-          <li>Ingredient - Vestibulum tincidunt consectetur</li>
-          <li>Ingredient - Aenean eget orci in purus efficitur</li>
-        </ul>
-      </div>
-
-      <div className="col-md-6 mb-4">
-        <h4>Key Benefits</h4>
-        <ul>
-          <li>Benefit - Lorem ipsum dolor sit amet</li>
-          <li>Benefit - Praesent et nisl id lorem</li>
-          <li>Benefit - Fusce efficitur ligula nec ex interdum</li>
-          <li>Benefit - Nulla facilisi. Vivamus commodo</li>
-        </ul>
-      </div>
-    </div>
-
-    <h4>How to Use?</h4>
-    <p>Ad illum natoque volutpat leo tor vehicula est libero.</p>
-
-    <h4>All Ingredients</h4>
-    <p>Water, Brassica Alcohol, Glycerin, etc.</p>
-  </section>
-
-  <div className="container mt-5">
-      <div className="row">
-        {/* Reviews Section */}
-        <div className="col-lg-8">
-          <div className="d-flex justify-content-between align-items-center mb-3">
-            <h4>Reviews (1480)</h4>
-            <button className="btn btn-dark">Write Review</button>
-          </div>
-          <div className="d-flex align-items-center mb-4">
-            <h5 className="mr-2">4 / 5</h5>
-            <span className="text-muted">Average Rating</span>
-          </div>
-
-          {/* Single Review */}
-          <div className="mb-4 pb-3 border-bottom">
-            <div className="d-flex align-items-center mb-2">
-              <i className="bi bi-person-circle mr-2"></i>
-              <strong>Name Surname</strong>
-              <div className="ml-auto">
-                <span className="text-warning">★★★☆☆</span>
-              </div>
-            </div>
-            <p className="text-muted small">5 September 2018</p>
-            <p>Porta corporis nibh. Adipisci maiores dui torquent porttitor nisi...</p>
-          </div>
-
-          {/* Additional Reviews */}
-          <div className="mb-4 pb-3 border-bottom">
-            <div className="d-flex align-items-center mb-2">
-              <i className="bi bi-person-circle mr-2"></i>
-              <strong>Name Surname</strong>
-              <div className="ml-auto">
-                <span className="text-warning">★★★☆☆</span>
-              </div>
-            </div>
-            <p className="text-muted small">5 September 2018</p>
-            <p>Porta corporis nibh. Adipisci maiores dui torquent porttitor nisi...</p>
-          </div>
-        </div>
-
-        {/* Top Reviews Section */}
-        <div className="col-lg-4">
-          <h5>Top Reviews</h5>
-
-          {/* Single Top Review */}
-          <div className="mb-4 pb-3 border-bottom">
-            <div className="d-flex align-items-center mb-2">
-              <i className="bi bi-person-circle mr-2"></i>
-              <strong>Name Surname</strong>
-              <div className="ml-auto">
-                <span className="text-warning">★★★★★</span>
-              </div>
-            </div>
-            <p className="text-muted small">5 September 2018</p>
-            <p>
-              Porta corporis nibh. Adipisci maiores dui torquent porttitor nisi...
-              <a href="#" className="text-dark">Read More</a>
-            </p>
-          </div>
-
-          {/* Additional Top Reviews */}
-          <div className="mb-4 pb-3 border-bottom">
-            <div className="d-flex align-items-center mb-2">
-              <i className="bi bi-person-circle mr-2"></i>
-              <strong>Name Surname</strong>
-              <div className="ml-auto">
-                <span className="text-warning">★★★★★</span>
-              </div>
-            </div>
-            <p className="text-muted small">5 September 2018</p>
-            <p>
-              Porta corporis nibh. Adipisci maiores dui torquent porttitor nisi...
-              <a href="#" className="text-dark">Read More</a>
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
+ 
 
     <div className="container mt-5">
       <h4 className="mb-4">Related Products</h4>
@@ -297,7 +139,6 @@ export default function Detail({ params }: { params: { id: string } }) {
               {/* Product Card 1 */}
               <div className="col-lg-3 col-md-4 col-sm-6 mb-4">
                 <div className="card h-100">
-                  <img src="/image/pr-bg-04.png" className="card-img-top" alt="Product" />
                   <div className="card-body">
                     <span className="badge bg-dark mb-2">Category</span>
                     <h6 className="card-title">Product Title Goes Here</h6>
@@ -314,7 +155,6 @@ export default function Detail({ params }: { params: { id: string } }) {
               {/* Product Card 2 */}
               <div className="col-lg-3 col-md-4 col-sm-6 mb-4">
                 <div className="card h-100">
-                  <img src="/image/pr-bg-05.png" className="card-img-top" alt="Product" />
                   <div className="card-body">
                     <span className="badge bg-dark mb-2">Skin Care</span>
                     <h6 className="card-title">Product Title Goes Here</h6>
@@ -331,7 +171,6 @@ export default function Detail({ params }: { params: { id: string } }) {
               {/* Product Card 3 */}
               <div className="col-lg-3 col-md-4 col-sm-6 mb-4">
                 <div className="card h-100">
-                  <img src="/image/pr-bg-06.png" className="card-img-top" alt="Product" />
                   <div className="card-body">
                     <span className="badge bg-dark mb-2">Skin Care</span>
                     <h6 className="card-title">Product Title Goes Here</h6>
@@ -346,21 +185,7 @@ export default function Detail({ params }: { params: { id: string } }) {
               </div>
 
               {/* Product Card 4 */}
-              <div className="col-lg-3 col-md-4 col-sm-6 mb-4">
-                <div className="card h-100">
-                  <img src="/image/pr-bg-07.png" className="card-img-top" alt="Product" />
-                  <div className="card-body">
-                    <span className="badge bg-dark mb-2">Skin Care</span>
-                    <h6 className="card-title">Product Title Goes Here</h6>
-                    <p className="card-text text-muted small">Brand</p>
-                    <div className="d-flex justify-content-between align-items-center">
-                      <span className="text-muted small"><del>AED 32.00</del></span>
-                      <span className="text-dark">AED 25.60</span>
-                      <span className="badge bg-light text-dark">30% Off</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
+              
             </div>
           </div>
 
