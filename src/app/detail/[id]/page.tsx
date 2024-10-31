@@ -183,13 +183,8 @@ export default function Detail({ params }: { params: { id: string } }) {
                   </div>
                 </div>
               </div>
-
-              {/* Product Card 4 */}
-              
             </div>
           </div>
-
-          {/* You can add more carousel items here if needed */}
         </div>
 
         {/* Carousel Controls */}
