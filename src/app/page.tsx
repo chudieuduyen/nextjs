@@ -57,7 +57,7 @@ export default function Home() {
                         </ul>
                       </li>
                       <li className="nav-item dropdown">
-                       <Link  className="nav-link dropdown-toggle text-white" href="/products" role="button"
+                       <Link  className="nav-link dropdown-toggle text-white" href="#" role="button"
                           data-bs-toggle="dropdown" aria-expanded="false">
                           Sản Phẩm
                        </Link>
@@ -85,7 +85,7 @@ export default function Home() {
                         </ul>
                       </li>
                       <li className="nav-item dropdown">
-                      <Link  className="nav-link dropdown-toggle text-white" href="/check_out" role="button"
+                      <Link  className="nav-link dropdown-toggle text-white" href="#" role="button"
                           data-bs-toggle="dropdown" aria-expanded="false">
                           Check Out
                        </Link>
